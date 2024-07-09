@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    tools:context=".TTT_play">
+
+
+    <TextView
+        android:id="@+id/player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/player_c"
+        android:layout_width="88dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/TTTLayout"
+        android:layout_width="361dp"
+        android:layout_height="632dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.494"
+        app:srcCompat="@drawable/tictactoe_layout" />
+
+    <!--Background images-->
+
+    <ImageView
+        android:id="@+id/back_00"
+        android:layout_width="87dp"
+        android:layout_height="74dp"
+        app:layout_constraintBottom_toBottomOf="@+id/TTTLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.091"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TTTLayout"
+        app:layout_constraintVertical_bias="0.29"
+        app:srcCompat="@drawable/ttt_00" />
+
+    <ImageView
+        android:id="@+id/back_01"
+        android:layout_width="106dp"
+        android:layout_height="77dp"
+        app:layout_constraintBottom_toBottomOf="@+id/TTTLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TTTLayout"
+        app:layout_constraintVertical_bias="0.283"
+        app:srcCompat="@drawable/ttt_00" />
+
+    <ImageView
+        android:id="@+id/back_02"
+        android:layout_width="89dp"
+        android:layout_height="71dp"
+        app:layout_constraintBottom_toBottomOf="@+id/TTTLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TTTLayout"
+        app:layout_constraintVertical_bias="0.286"
+        app:srcCompat="@drawable/ttt_00" />
+
+    <ImageView
+        android:id="@+id/back_10"
+        android:layout_width="91dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="@+id/TTTLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.034"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TTTLayout"
+        app:layout_constraintVertical_bias="0.499"
+        app:srcCompat="@drawable/ttt_00" />
+
+    <ImageView
+        android:id="@+id/back_11"
+        android:layout_width="95dp"
+        android:layout_height="72dp"
+        app:layout_constraintBottom_toBottomOf="@+id/TTTLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TTTLayout"
+        app:layout_constraintVertical_bias="0.499"
+        app:srcCompat="@drawable/ttt_00" />
+
+    <ImageView
+        android:id="@+id/back_12"
+        android:layout_width="81dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="@+id/TTTLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.923"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TTTLayout"
+        app:layout_constraintVertical_bias="0.505"
+        app:srcCompat="@drawable/ttt_00" />
+
+    <ImageView
+        android:id="@+id/back_20"
+        android:layout_width="90dp"
+        android:layout_height="91dp"
+        app:layout_constraintBottom_toBottomOf="@+id/TTTLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.035"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TTTLayout"
+        app:layout_constraintVertical_bias="0.7369"
+        app:srcCompat="@drawable/ttt_00" />
+
+    <ImageView
+        android:id="@+id/back_21"
+        android:layout_width="89dp"
+        android:layout_height="93dp"
+        app:layout_constraintBottom_toBottomOf="@+id/TTTLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TTTLayout"
+        app:layout_constraintVertical_bias="0.737"
+        app:srcCompat="@drawable/ttt_00" />
+
+
+    <ImageView
+        android:id="@+id/back_22"
+        android:layout_width="81dp"
+        android:layout_height="75dp"
+        app:layout_constraintBottom_toBottomOf="@+id/TTTLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.923"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TTTLayout"
+        app:layout_constraintVertical_bias="0.714"
+        app:srcCompat="@drawable/ttt_00" />
+
+    <!--    X images-->
+
+    <ImageView
+        android:id="@+id/x00"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/TTTLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TTTLayout"
+        app:layout_constraintVertical_bias="0.25"
+        app:srcCompat="@drawable/x" />
+
+    <ImageView
+        android:id="@+id/x01"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/TTTLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="@+id/TTTLayout"
+        app:layout_constraintTop_toTopOf="@+id/TTTLayout"
+        app:layout_constraintVertical_bias="0.274"
+        app:srcCompat="@drawable/x" />
+
+    <ImageView
+        android:id="@+id/x02"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/TTTLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.991"
+        app:layout_constraintStart_toStartOf="@+id/TTTLayout"
+        app:layout_constraintTop_toTopOf="@+id/TTTLayout"
+        app:layout_constraintVertical_bias="0.249"
+        app:srcCompat="@drawable/x" />
+
+    <ImageView
+        android:id="@+id/x10"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/TTTLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.003"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TTTLayout"
+        app:layout_constraintVertical_bias="0.498"
+        app:srcCompat="@drawable/x" />
+
+    <ImageView
+        android:id="@+id/x11"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/TTTLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TTTLayout"
+        app:srcCompat="@drawable/x" />
+
+    <ImageView
+        android:id="@+id/x12"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/TTTLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.988"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TTTLayout"
+        app:srcCompat="@drawable/x" />
+
+    <ImageView
+        android:id="@+id/x20"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/TTTLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TTTLayout"
+        app:layout_constraintVertical_bias="0.743"
+        app:srcCompat="@drawable/x" />
+
+    <ImageView
+        android:id="@+id/x21"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/TTTLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TTTLayout"
+        app:layout_constraintVertical_bias="0.745"
+        app:srcCompat="@drawable/x" />
+
+    <ImageView
+        android:id="@+id/x22"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/TTTLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TTTLayout"
+        app:layout_constraintVertical_bias="0.756"
+        app:srcCompat="@drawable/x" />
+
+    <!--    O images -->
+
+    <ImageView
+        android:id="@+id/o00"
+        android:layout_width="90dp"
+        android:layout_height="85dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/TTTLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TTTLayout"
+        app:layout_constraintVertical_bias="0.272"
+        app:srcCompat="@drawable/o" />
+
+    <ImageView
+        android:id="@+id/o01"
+        android:layout_width="90dp"
+        android:layout_height="85dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/TTTLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="@+id/TTTLayout"
+        app:layout_constraintTop_toTopOf="@+id/TTTLayout"
+        app:layout_constraintVertical_bias="0.274"
+        app:srcCompat="@drawable/o" />
+
+    <ImageView
+        android:id="@+id/o02"
+        android:layout_width="90dp"
+        android:layout_height="85dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/TTTLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toStartOf="@+id/TTTLayout"
+        app:layout_constraintTop_toTopOf="@+id/TTTLayout"
+        app:layout_constraintVertical_bias="0.271"
+        app:srcCompat="@drawable/o" />
+
+    <ImageView
+        android:id="@+id/o10"
+        android:layout_width="90dp"
+        android:layout_height="85dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/TTTLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TTTLayout"
+        app:layout_constraintVertical_bias="0.502"
+        app:srcCompat="@drawable/o" />
+
+    <ImageView
+        android:id="@+id/o11"
+        android:layout_width="90dp"
+        android:layout_height="85dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/TTTLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TTTLayout"
+        app:srcCompat="@drawable/o" />
+
+    <ImageView
+        android:id="@+id/o12"
+        android:layout_width="90dp"
+        android:layout_height="85dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/TTTLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TTTLayout"
+        app:srcCompat="@drawable/o" />
+
+    <ImageView
+        android:id="@+id/o20"
+        android:layout_width="90dp"
+        android:layout_height="85dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/TTTLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TTTLayout"
+        app:layout_constraintVertical_bias="0.727"
+        app:srcCompat="@drawable/o" />
+
+    <ImageView
+        android:id="@+id/o21"
+        android:layout_width="90dp"
+        android:layout_height="85dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/TTTLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TTTLayout"
+        app:layout_constraintVertical_bias="0.727"
+        app:srcCompat="@drawable/o" />
+
+    <ImageView
+        android:id="@+id/o22"
+        android:layout_width="90dp"
+        android:layout_height="85dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/TTTLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.99"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TTTLayout"
+        app:layout_constraintVertical_bias="0.74"
+        app:srcCompat="@drawable/o" />
+
+    <Button
+        android:id="@+id/reset_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.869" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="TTT_layout">TTTLayout</string>
+    <string name="ba1">Back1</string>
+    <string name="ba2">Back2</string>
+    <string name="ba3">Back3</string>
+    <string name="ba4">Back4</string>
+    <string name="ba5">Back5</string>
+    <string name="ba6">Back6</string>
+    <string name="ba7">Back7</string>
+    <string name="ba8">Back8</string>
+    <string name="ba9">Back9</string>
+
+
+</resources>
